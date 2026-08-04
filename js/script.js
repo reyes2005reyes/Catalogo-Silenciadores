@@ -86,6 +86,96 @@ const productos = [
     nombre: "CORSA EVOLUTION LARGO",
     categoria: "Premium",
     imagenes: ["img/silenciador-09-1.webp", "img/silenciador-09-2.webp", "img/silenciador-09-3.webp", "img/silenciador-09-4.webp", "img/silenciador-09-5.webp", "img/silenciador-09-6.webp", "img/silenciador-09-7.webp", "img/silenciador-09-8.webp", "img/silenciador-09-9.webp"]
+  },
+  {
+    id: 10,
+    nombre: "RENAULT",
+    categoria: "Premium",
+    imagenes: ["img/silenciador-10-1.webp", "img/silenciador-10-2.webp", "img/silenciador-10-3.webp", "img/silenciador-10-4.webp", "img/silenciador-10-5.webp", "img/silenciador-10-6.webp"]
+  },
+  {
+    id: 11,
+    nombre: "RENAULT CLIO2",
+    categoria: "Premium",
+    imagenes: ["img/silenciador-11-1.webp", "img/silenciador-11-2.webp", "img/silenciador-11-3.webp", "img/silenciador-11-4.webp", "img/silenciador-11-5.webp", "img/silenciador-11-6.webp"]
+  },
+  {
+    id: 12,
+    nombre: "RENAULT SIMBOLO ",
+    categoria: "Premium",
+    imagenes: ["img/silenciador-12-1.webp", "img/silenciador-12-2.webp", "img/silenciador-12-3.webp", "img/silenciador-12-4.webp", "img/silenciador-12-5.webp", "img/silenciador-12-6.webp"]
+  },
+  {
+    id: 13,
+    nombre: "DIESEL C30 ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-13-1.webp", "img-2/silenciador-13-2.webp", "img-2/silenciador-13-3.webp", "img-2/silenciador-13-4.webp"]
+  },
+  {
+    id: 14,
+    nombre: "LAVAR 1600 ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-16-1.webp", "img-2/silenciador-16-2.webp", "img-2/silenciador-16-3.webp", "img-2/silenciador-16-4.webp"]
+  },
+  {
+    id: 15,
+    nombre: "UNIVERSAL GRANDE  ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-14-1.webp", "img-2/silenciador-14-3.webp", "img-2/silenciador-14-4.webp", "img-2/silenciador-14-5.webp"]
+  },
+  {
+    id: 16,
+    nombre: "JEEP GASOLINARE ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-15-1.webp", "img-2/silenciador-15-3.webp", "img-2/silenciador-15-4.webp", "img-2/silenciador-15-6.webp"]
+  },
+  {
+    id: 17,
+    nombre: "RENAULT MANAGE",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-17-1.webp", "img-2/silenciador-17-2.webp", "img-2/silenciador-17-3.webp", "img-2/silenciador-17-4.webp"]
+  },
+  {
+    id: 18,
+    nombre: "Silenciador 18",
+    categoria: "Sport",
+    imagenes: ["img-2/silenciador-18-1.webp", "img-2/silenciador-18-2.webp", "img-2/silenciador-18-3.webp", "img-2/silenciador-18-5.webp"]
+  },
+  {
+    id: 19,
+    nombre: "CHEVROLET VITARA 3 PUERTAS",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-19-2.webp", "img-2/silenciador-19-3.webp", "img-2/silenciador-19-4.webp", "img-2/silenciador-19-5.webp"]
+  },
+  {
+    id: 20,
+    nombre: "UNIVERSAL MEDIANO ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-20-1.webp", "img-2/silenciador-20-2.webp", "img-2/silenciador-20-3.webp", "img-2/silenciador-20-4.webp"]
+  },
+  {
+    id: 21,
+    nombre: "MAZDA 323 SIN GANCHO ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-21-1.webp", "img-2/silenciador-21-2.webp", "img-2/silenciador-21-3.webp", "img-2/silenciador-21-5.webp"]
+  },
+  {
+    id: 22,
+    nombre: "CHEVROLET NPR  ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-22-1.webp", "img-2/silenciador-22-2.webp", "img-2/silenciador-22-3.webp", "img-2/silenciador-22-4.webp"]
+  },
+  {
+    id: 23,
+    nombre: "SWIFT 1.3 ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-25-1.webp", "img-2/silenciador-25-2.webp", "img-2/silenciador-25-3.webp", "img-2/silenciador-25-4.webp"]
+  },
+  {
+    id: 24,
+    nombre: "CHEVROLET SPRINGS ",
+    categoria: "Premium",
+    imagenes: ["img-2/silenciador-24-1.webp", "img-2/silenciador-24-3.webp", "img-2/silenciador-24-4.webp", "img-2/silenciador-24-6.webp"]
   }
 ];
 
