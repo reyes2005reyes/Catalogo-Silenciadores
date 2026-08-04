@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo | Silenciadores y Escapes</title>
+  <meta name="description" content="Catálogo de silenciadores y sistemas de escape deportivo. Consulta disponibilidad directamente por WhatsApp.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a class="brand" href="#inicio">
+        <img src="img/logo.png" alt="Logo" class="logo">
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#diferencia">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <button class="btn btn-primary header-cta" id="btnAbrirCarrito" type="button">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>Cotización</span>
+        <span class="cart-badge" id="carritoBadge" hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" data-animate>
+    <div class="hero-content">
+      <p class="eyebrow">SILENCIADORES & MÁS — Cali</p>
+      <h1 class="hero-title">
+        SONIDO Y ESTILO<br>
+        <em>PARA TU VEHÍCULO</em>
+      </h1>
+      <p class="hero-sub">
+        Explora el catálogo completo de silenciadores, terminales y sistemas de escape.
+        Elige el que más te guste y consúltanos directo por WhatsApp.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#catalogo" class="btn btn-primary">
+          Ver catálogo
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </a>
+        <a href="#contacto" class="btn btn-secondary">
+          <i class="fa-brands fa-whatsapp"></i>
+          Cotizar ahora
+        </a>
+      </div>
+
+      
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" id="totalProductos">00</span>
+          <span class="stat-label">Modelos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">304</span>
+          <span class="stat-label">Acero inox</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">12</span>
+          <span class="stat-label">Años exp.</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">A la medida</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-figure" aria-hidden="true">
+      <div class="hero-glow"></div>
+    </div>
+  </section>
+
+  <!-- ===================== CATÁLOGO ===================== -->
+  
+  <div class="buscador" >
+    <form class="search-bar" role="search" onsubmit="return false;">
+        <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
+        <input
+          type="search"
+          id="buscador"
+          placeholder="Busca por nombre o modelo…"
+          aria-label="Buscar producto por nombre"
+          autocomplete="off"
+        >
+        <span class="search-count" id="contadorResultados"></span>
+      </form>
+  </div>
+
+  <main>
+    <section class="coleccion" id="catalogo">
+      <div class="section-heading">
+        <p class="eyebrow">Productos</p>
+        <h2>Catálogo de escapes</h2>
+        <p>Filtra por categoría o busca directamente el modelo que necesitas.</p>
+      </div>
+
+      <div class="category-tabs" id="categoryTabs" role="tablist" aria-label="Filtrar por categoría">
+        <!-- Los botones de categoría se generan dinámicamente con JavaScript -->
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- Las tarjetas de producto se generan dinámicamente con JavaScript -->
+      </div>
+
+      <p class="empty-state" id="estadoVacio" hidden>
+        <i class="fa-regular fa-face-frown"></i>
+        No encontramos productos que coincidan con tu búsqueda.
+      </p>
+
+      <nav class="pagination" id="paginacion" aria-label="Paginación de productos"></nav>
+    </section>
+
+    <!-- ===================== POR QUÉ ELEGIRNOS ===================== -->
+    <section class="diferencia" id="diferencia">
+      <div class="section-heading light">
+        <p class="eyebrow">Nuestra diferencia</p>
+        <h2>¿Por qué elegirnos?</h2>
+      </div>
+
+      <div class="diferencia-grid">
+        <div class="diferencia-card">
+          <span class="diferencia-icon"><i class="fa-solid fa-award"></i></span>
+          <h3>Experiencia comprobada</h3>
+          <p>Años fabricando e instalando sistemas de escape con acabados de calidad.</p>
+        </div>
+        <div class="diferencia-card">
+          <span class="diferencia-icon"><i class="fa-solid fa-ruler-combined"></i></span>
+          <h3>Hecho a la medida</h3>
+          <p>Fabricamos para tu modelo específico, no piezas genéricas de estante.</p>
+        </div>
+        <div class="diferencia-card">
+          <span class="diferencia-icon"><i class="fa-solid fa-shield-halved"></i></span>
+          <h3>Acero inoxidable</h3>
+          <p>Resistente a la corrosión y pensado para durar en el tiempo.</p>
+        </div>
+        <div class="diferencia-card">
+          <span class="diferencia-icon"><i class="fa-solid fa-car"></i></span>
+          <h3>Autos y camionetas</h3>
+          <p>Trabajamos con múltiples marcas y tipos de vehículo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROCESO ===================== -->
+    <section class="proceso">
+      <div class="section-heading">
+        <p class="eyebrow">Proceso simple</p>
+        <h2>Así de fácil</h2>
+      </div>
+
+      <div class="proceso-grid">
+        <div class="proceso-step">
+          <span class="proceso-num">01</span>
+          <i class="fa-solid fa-comment-dots"></i>
+          <h3>Contáctanos</h3>
+          <p>Escríbenos por WhatsApp contándonos qué necesitas.</p>
+        </div>
+        <div class="proceso-step">
+          <span class="proceso-num">02</span>
+          <i class="fa-solid fa-file-invoice-dollar"></i>
+          <h3>Cotización</h3>
+          <p>Te enviamos el presupuesto según tu modelo de vehículo.</p>
+        </div>
+        <div class="proceso-step">
+          <span class="proceso-num">03</span>
+          <i class="fa-solid fa-calendar-check"></i>
+          <h3>Agendamos</h3>
+          <p>Coordinamos el día y hora que mejor te quede.</p>
+        </div>
+        <div class="proceso-step">
+          <span class="proceso-num">04</span>
+          <i class="fa-solid fa-circle-check"></i>
+          <h3>Listo</h3>
+          <p>Recibes tu vehículo con el trabajo terminado.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MARCAS COMPATIBLES ===================== -->
+    <section class="marcas">
+      <div class="section-heading light">
+        <p class="eyebrow">Compatibilidad</p>
+        <h2>Marcas con las que trabajamos</h2>
+      </div>
+
+      <div class="marcas-wrapper">
+        <div class="marcas-track" id="marcasTrack" aria-hidden="true">
+          <!-- Los logos de marcas se generan dinámicamente con JavaScript -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== MODAL DE PRODUCTO ===================== -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar detalle del producto">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+        <div class="modal-media">
+          <button class="modal-nav modal-nav-prev" id="modalPrev" aria-label="Foto anterior">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <img id="modalImagen" src="" alt="">
+          <button class="modal-nav modal-nav-next" id="modalNext" aria-label="Foto siguiente">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <span class="modal-contador" id="modalContador"></span>
+        </div>
+      <div class="modal-thumbs" id="modalThumbs"></div>
+      <div class="modal-info">
+        <span class="modal-tag" id="modalCategoria"></span>
+        <h3 id="modalTitulo"></h3>
+        <p id="modalDescripcion"></p>
+        <div class="modal-footer">
+          <span class="modal-precio" id="modalPrecio"></span>
+          <button class="btn btn-primary" id="modalAgregarCarrito" type="button">
+            <i class="fa-solid fa-cart-plus"></i>
+            <span id="modalAgregarTexto">Agregar a cotización</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== FOOTER / CONTACTO ===================== -->
+  <footer class="site-footer" id="contacto">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark"><i class="fa-solid fa-bolt"></i></span>
+        <span class="brand-name">Nombre<em>Escapes</em></span>
+        <p>Silenciadores y sistemas de escape a la medida.</p>
+      </div>
+
+      <div class="footer-contact">
+        <h4>¿Listo para cotizar tu escape?</h4>
+        <p>Escríbenos directamente y con gusto te atendemos.</p>
+        <a href="https://wa.me/573001234567" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="fa-brands fa-whatsapp"></i>
+          Escribir por WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="anioActual"></span> Nombre Escapes. Hecho con HTML, CSS y JavaScript puro.</p>
+    </div>
+  </footer>
+  <!-- ===================== CARRITO DE COTIZACIÓN ===================== -->
+  <button class="cart-float" id="btnCarritoFloat" type="button" aria-label="Ver cotización">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span class="cart-badge" id="carritoBadgeFloat" hidden>0</span>
+  </button>
+
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true">
+    <div class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitulo">
+      <div class="cart-header">
+        <h3 id="cartTitulo">Tu cotización</h3>
+        <button class="modal-close" id="cartClose" aria-label="Cerrar cotización">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="cart-items" id="cartItems"></div>
+
+      <p class="cart-empty" id="cartEmpty">Aún no has agregado productos. Toca el botón "+" en los que te interesen.</p>
+
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span>Total estimado</span>
+          <strong id="cartTotal">$0</strong>
+        </div>
+        <a class="btn btn-primary" id="cartWhatsapp" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i>
+          Enviar cotización
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
