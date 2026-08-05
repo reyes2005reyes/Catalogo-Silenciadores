@@ -176,13 +176,342 @@ const productos = [
     nombre: "CHEVROLET SPRINGS ",
     categoria: "Premium",
     imagenes: ["img-2/silenciador-24-1.webp", "img-2/silenciador-24-3.webp", "img-2/silenciador-24-4.webp", "img-2/silenciador-24-6.webp"]
+  },
+  {
+    id: 25,
+    nombre: "SPARK GT  ",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-26-1.webp", "img-3/silenciador-26-2.webp", "img-3/silenciador-26-3.webp", "img-3/silenciador-26-4.webp"]
+  },
+  {
+    id: 26,
+    nombre: "RENAULT TINTO",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-27-1.webp", "img-3/silenciador-27-2.webp", "img-3/silenciador-27-3.webp", "img-3/silenciador-27-5.webp"]
+  },
+  {
+    id: 27,
+    nombre: "TOYOTA 4.5",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-28-1.webp", "img-3/silenciador-28-2.webp", "img-3/silenciador-28-3.webp", "img-3/silenciador-28-4.webp"]
+  },
+  {
+    id: 28,
+    nombre: "TOYOTA PRADO ",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-29-1.webp", "img-3/silenciador-29-3.webp", "img-3/silenciador-29-4.webp", "img-3/silenciador-29-5.webp"]
+  },
+  {
+    id: 29,
+    nombre: "TOYOTA F140",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-30-2.webp", "img-3/silenciador-30-4.webp", "img-3/silenciador-30-5.webp", "img-3/silenciador-30-6.webp"]
+  },
+  {
+    id: 30,
+    nombre: "SPARK CRONOS ",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-31-1.webp", "img-3/silenciador-31-2.webp", "img-3/silenciador-31-3.webp", "img-3/silenciador-31-4.webp"]
+  },
+  {
+    id: 31,
+    nombre: "CHEVROLET OPTRA LARGO ",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-32-1.webp", "img-3/silenciador-32-2.webp", "img-3/silenciador-32-3.webp", "img-3/silenciador-32-4.webp"]
+  },
+  {
+    id: 32,
+    nombre: "KIA PICANTO MIRNING",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-33-1.webp", "img-3/silenciador-33-2.webp", "img-3/silenciador-33-3.webp", "img-3/silenciador-33-4.webp"]
+  },
+  {
+    id: 33,
+    nombre: "KIA PICANTO ION ",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-34-1.webp", "img-3/silenciador-34-2.webp", "img-3/silenciador-34-3.webp", "img-3/silenciador-34-4.webp"]
+  },
+  {
+    id: 34,
+    nombre: "CHEVROLET SAIL LARGO ",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-35-1.webp", "img-3/silenciador-35-2.webp", "img-3/silenciador-35-3.webp", "img-3/silenciador-35-4.webp"]
+  },
+  {
+    id: 35,
+    nombre: "CHEVROLET  SAIL CORTO",
+    categoria: "Premium",
+    imagenes: ["img-3/silenciador-36-1.webp", "img-3/silenciador-36-2.webp", "img-3/silenciador-36-3.webp", "img-3/silenciador-36-4.webp"]
+  },
+  {
+    id: 36,
+    nombre: "RENAULT SANDERO ",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-37-1.webp", "img-4/silenciador-37-2.webp", "img-4/silenciador-37-3.webp", "img-4/silenciador-37-4.webp"]
+  },
+  {
+    id: 37,
+    nombre: "MONTERO HART TOP",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-38-1.webp", "img-4/silenciador-38-2.webp", "img-4/silenciador-38-3.webp", "img-4/silenciador-38-4.webp"]
+  },
+  {
+    id: 38,
+    nombre: "FORD ECO SPORT",
+    categoria: "Sport",
+    imagenes: ["img-4/silenciador-39-1.webp", "img-4/silenciador-39-2.webp", "img-4/silenciador-39-3.webp", "img-4/silenciador-39-4.webp"]
+  },
+  {
+    id: 39,
+    nombre: "SANDERO STEPWAY ",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-40-1.webp", "img-4/silenciador-40-2.webp", "img-4/silenciador-40-3.webp", "img-4/silenciador-40-5.webp"]
+  },
+  {
+    id: 40,
+    nombre: "CHEVROLET NPR",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-41-1.webp", "img-4/silenciador-41-2.webp", "img-4/silenciador-41-3.webp", "img-4/silenciador-41-4.webp"]
+  },
+  {
+    id: 41,
+    nombre: "MAZDA 2 COMPLETO",
+    categoria: "Sport",
+    imagenes: ["img-4/silenciador-42-1.webp", "img-4/silenciador-42-2.webp", "img-4/silenciador-42-3.webp", "img-4/silenciador-42-4.webp"]
+  },
+  {
+    id: 42,
+    nombre: "HYUNDAY I35 TUCSON, KIA REVOLUCION, KIA SOPORTARE",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-43-1.webp", "img-4/silenciador-43-2.webp", "img-4/silenciador-43-4.webp", "img-4/silenciador-43-5.webp"]
+  },
+  {
+    id: 43,
+    nombre: "UNIVERSAL  DE 40 REDONDO ",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-44-1.webp", "img-4/silenciador-44-2.webp", "img-4/silenciador-44-4.webp", "img-4/silenciador-44-4.webp"]
+  },
+  {
+    id: 44,
+    nombre: "POS TOYOTA ",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-45-1.webp", "img-4/silenciador-45-2.webp", "img-4/silenciador-45-3.webp", "img-4/silenciador-45-4.webp"]
+  },
+  {
+    id: 45,
+    nombre: "PRE SILENCIADOR AVEO",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-46-1.webp", "img-4/silenciador-46-2.webp", "img-4/silenciador-46-3.webp", "img-4/silenciador-46-4.webp"]
+  },
+  {
+    id: 46,
+    nombre: "PRE SILENCIADOR CORAA, PRE SILENCIADOR SPARK CRONOS",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-47-1.webp", "img-4/silenciador-47-2.webp", "img-4/silenciador-47-3.webp", "img-4/silenciador-47-4.webp"]
+  },
+  {
+    id: 47,
+    nombre: "PRE SILENCIADOR SPARK GT",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-48-1.webp", "img-4/silenciador-48-2.webp", "img-4/silenciador-48-3.webp", "img-4/silenciador-48-4.webp"]
+  },
+  {
+    id: 48,
+    nombre: "PRE SILENCIADOR SUZUKI ",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-49-1.webp", "img-4/silenciador-49-2.webp", "img-4/silenciador-49-3.webp", "img-4/silenciador-49-4.webp"]
+  },
+  {
+    id: 49,
+    nombre: "PRE SILENCIADOR SANDERO STEPWAY ",
+    categoria: "Premium",
+    imagenes: ["img-4/silenciador-50-1.webp", "img-4/silenciador-50-2.webp", "img-5/silenciador-50-3.webp", "img-5/silenciador-50-4.webp"]
+  },
+  {
+    id: 50,
+    nombre: "PRE SILENCIADOR UNIVERSAL MAZDA 323 ",
+    categoria: "Premium",
+    imagenes: ["img-5/silenciador-51-1.webp", "img-5/silenciador-51-2.webp", "img-5/silenciador-51-3.webp", "img-5/silenciador-51-5.webp"]
+  },
+  {
+    id: 51,
+    nombre: "PRE SILENCIADOR KIA PICANTO",
+    categoria: "Premium",
+    imagenes: ["img-5/silenciador-52-1.webp", "img-5/silenciador-52-2.webp", "img-5/silenciador-52-3.webp", "img-5/silenciador-52-4.webp"]
+  },
+  {
+    id: 52,
+    nombre: "PRE SILENCIADOR LOGRAN",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-53-1.webp", "img-5/silenciador-53-2.webp", "img-5/silenciador-53-3.webp", "img-5/silenciador-53-4.webp"]
+  },
+  {
+    id: 53,
+    nombre: "PRE SILENCIADOR VALA 2 1 /4",
+    categoria: "Premium",
+    imagenes: ["img-5/silenciador-54-1.webp", "img-5/silenciador-54-2.webp", "img-5/silenciador-54-3.webp", "img-5/silenciador-54-4.webp"]
+  },
+  {
+    id: 54,
+    nombre: "Silenciador 55",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-55-1.webp", "img-5/silenciador-55-2.webp", "img-5/silenciador-55-3.webp", "img-5/silenciador-55-4.webp"]
+  },
+  {
+    id: 55,
+    nombre: "HYUNDAY GETZ 40 cm",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-55-1.webp", "img-5/silenciador-55-2.webp", "img-5/silenciador-55-3.webp", "img-5/silenciador-55-4.webp"]
+  },
+  {
+    id: 56,
+    nombre: "FLEXIBLE 2 PULGADAS POR 8 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-56-1.webp", "img-5/silenciador-56-2.webp", "img-5/silenciador-56-3.webp", "img-5/silenciador-56-4.webp"]
+  },
+  {
+    id: 57,
+    nombre: "FLEXIBLE 2 Y MEDIO X 6 PULGADAS",
+    categoria: "Premium",
+    imagenes: ["img-5/silenciador-57-1.webp", "img-5/silenciador-57-2.webp", "img-5/silenciador-57-3.webp", "img-5/silenciador-57-4.webp"]
+  },
+  {
+    id: 58,
+    nombre: "FLEXIBLE 3 X 6 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-58-1.webp", "img-5/silenciador-58-2.webp", "img-5/silenciador-58-3.webp", "img-5/silenciador-58-4.webp"]
+  },
+  {
+    id: 59,
+    nombre: "FLEXIBLE 2 PULGAGAS X 4",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-59-1.webp", "img-5/silenciador-59-2.webp", "img-5/silenciador-59-3.webp", "img-5/silenciador-59-4.webp"]
+  },
+  {
+    id: 60,
+    nombre: "FLEXIBLE 3 X 6 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-61-1.webp", "img-5/silenciador-61-2.webp", "img-5/silenciador-61-3.webp", "img-5/silenciador-61-4.webp"]
+  },
+  {
+    id: 61,
+    nombre: "FLEXIBLE 2/4  X 6 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-62-1.webp", "img-5/silenciador-62-2.webp", "img-5/silenciador-62-3.webp", "img-5/silenciador-62-4.webp"]
+  },
+  {
+    id: 62,
+    nombre: "FLEXIBLE 2 X 4 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-63-1.webp", "img-5/silenciador-63-2.webp", "img-5/silenciador-63-3.webp", "img-5/silenciador-63-4.webp"]
+  },
+  {
+    id: 63,
+    nombre: "FLEXIBLE 5 X 10 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-64-1.webp", "img-5/silenciador-64-2.webp", "img-5/silenciador-64-3.webp", "img-5/silenciador-64-4.webp"]
+  },
+  {
+    id: 64,
+    nombre: "FLEXIBLE 4 X 10 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-65-1.webp", "img-5/silenciador-65-2.webp", "img-5/silenciador-65-3.webp", "img-5/silenciador-65-4.webp"]
+  },
+  {
+    id: 65,
+    nombre: "SALIDA LATERAL 3,4,5 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-66-1.webp", "img-5/silenciador-66-2.webp", "img-5/silenciador-66-3.webp", "img-5/silenciador-66-4.webp"]
+  },
+  {
+    id: 66,
+    nombre: "CHIMENEA DE 3 4,5 PULGADAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-67-1.webp", "img-5/silenciador-67-2.webp", "img-5/silenciador-67-3.webp", "img-5/silenciador-67-4.webp"]
+  },
+  {
+    id: 67,
+    nombre: "TERMINALES DE EXOSTOS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-68-1.webp", "img-5/silenciador-68-2.webp", "img-5/silenciador-68-3.webp", "img-5/silenciador-68-4.webp"]
+  },
+  {
+    id: 68,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-69-1.webp", "img-5/silenciador-69-2.webp", "img-5/silenciador-69-3.webp", "img-5/silenciador-69-4.webp"]
+  },
+  {
+    id: 69,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-70-1.webp", "img-5/silenciador-70-2.webp", "img-5/silenciador-70-3.webp", "img-5/silenciador-70-4.webp"]
+  },
+  {
+    id: 70,
+    nombre: "LUV 2300",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-71-1.webp", "img-5/silenciador-71-2.webp", "img-5/silenciador-71-3.webp", "img-5/silenciador-71-4.webp", "img-5/silenciador-71-5.webp"]
+  },
+  {
+    id: 71,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-72-1.webp", "img-5/silenciador-72-2.webp", "img-5/silenciador-72-3.webp", "img-5/silenciador-72-4.webp"]
+  },
+
+
+
+  {
+    id: 72,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-73-1.webp", "img-5/silenciador-73-2.webp", "img-5/silenciador-73-3.webp", "img-5/silenciador-73-4.webp"]
+  },
+  {
+    id: 73,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-74-1.webp", "img-5/silenciador-74-2.webp", "img-5/silenciador-74-3.webp", "img-5/silenciador-74-4.webp"]
+  },
+  {
+    id: 74,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-75-1.webp", "img-5/silenciador-75-2.webp", "img-5/silenciador-75-3.webp", "img-5/silenciador-75-4.webp"]
+  },
+  {
+    id: 75,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-76-1.webp", "img-5/silenciador-76-2.webp", "img-5/silenciador-76-3.webp", "img-5/silenciador-76-4.webp"]
+  },
+  {
+    id: 76,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-77-1.webp", "img-5/silenciador-77-2.webp", "img-5/silenciador-77-3.webp", "img-5/silenciador-77-4.webp"]
+  },
+  {
+    id: 77,
+    nombre: "TERMINALES O PUNTERAS",
+    categoria: "Sport",
+    imagenes: ["img-5/silenciador-78-1.webp", "img-5/silenciador-78-2.webp", "img-5/silenciador-78-3.webp", "img-5/silenciador-78-4.webp"]
   }
+  
+  
+  
+  
+  
+
+
+
 ];
 
 const CARRITO_STORAGE_KEY = "catalogo-cotizacion";
 /* ---------- 3. CONFIGURACIÓN GENERAL ---------- */
 const CONFIG = {
-  whatsappNumero: "573183468568",
+  whatsappNumero: "573012290989",
   moneda: "COP",
   // Pega aquí la URL de GitHub Pages una vez publiques el sitio, ej:
   // "https://tu-usuario.github.io/nombre-repo/"
@@ -190,6 +519,43 @@ const CONFIG = {
 };
 /* ---------- CARRITO DE COTIZACIÓN ---------- */
 const carrito = new Map(); // id del producto -> producto completo
+let ultimoTamanoCarrito = 0;
+
+/** Mostrar un toast no intrusivo en pantalla (se guarda en sessionStorage para mostrarse una sola vez)
+ * @param {string} mensaje
+ * @param {number} duracion ms
+ */
+function showToast(mensaje, duracion = 5000) {
+  let cont = document.getElementById('toastContainer');
+  if (!cont) {
+    cont = document.createElement('div');
+    cont.id = 'toastContainer';
+    document.body.appendChild(cont);
+  }
+
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.innerHTML = `
+    <div class="toast-icon"><i class="fa-brands fa-whatsapp"></i></div>
+    <div class="toast-body">${mensaje}</div>
+    <button class="toast-close" aria-label="Cerrar">×</button>
+  `;
+  cont.appendChild(toast);
+
+  // Forzar reflow para animación
+  requestAnimationFrame(() => toast.classList.add('toast--visible'));
+
+  const timer = setTimeout(() => {
+    toast.classList.remove('toast--visible');
+    toast.addEventListener('transitionend', () => toast.remove(), { once: true });
+  }, duracion);
+
+  toast.querySelector('.toast-close').addEventListener('click', () => {
+    clearTimeout(timer);
+    toast.classList.remove('toast--visible');
+    toast.addEventListener('transitionend', () => toast.remove(), { once: true });
+  });
+}
 
 const btnAbrirCarrito = document.getElementById("btnAbrirCarrito");
 const btnCarritoFloat = document.getElementById("btnCarritoFloat");
@@ -245,6 +611,15 @@ function cargarCarritoDesdeStorage() {
 function actualizarUICarrito() {
   const total = carrito.size;
 
+  // Si el carrito acaba de superar 1 elemento, mostrar un toast informativo una sola vez por sesión
+  if (total > 1 && ultimoTamanoCarrito < 2) {
+    if (!sessionStorage.getItem('avisoCarritoMostrado')) {
+      showToast('Su carro tiene productos para que lo puedas cotizar');
+      sessionStorage.setItem('avisoCarritoMostrado', '1');
+    }
+  }
+  ultimoTamanoCarrito = total;
+
   [carritoBadge, carritoBadgeFloat].forEach((badge) => {
     badge.textContent = total;
     badge.hidden = total === 0;
@@ -256,6 +631,12 @@ function actualizarUICarrito() {
     boton.innerHTML = estaEnCarrito(id)
       ? '<i class="fa-solid fa-check"></i>'
       : '<i class="fa-solid fa-cart-plus"></i>';
+    // Mostrar texto "Agregado al carro" en la tarjeta correspondiente
+    const tarjeta = boton.closest('.product-card');
+    if (tarjeta) {
+      const textoAgregado = tarjeta.querySelector('.card-added');
+      if (textoAgregado) textoAgregado.hidden = !estaEnCarrito(id);
+    }
   });
 
   if (modalAgregarCarrito.dataset.id) {
@@ -380,6 +761,7 @@ function crearTarjeta(producto) {
     </div>
     <div class="card-body">
       <h3 class="card-title">${producto.nombre}</h3>
+      <div class="card-added" hidden>Agregado al carro</div>
       <p class="card-desc"></p>
       <div class="card-footer">
         <a class="card-contact" href="${construirEnlaceWhatsapp(producto)}" target="_blank" rel="noopener" aria-label="Consultar ${producto.nombre} por WhatsApp">

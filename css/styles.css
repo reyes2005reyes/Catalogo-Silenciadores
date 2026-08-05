@@ -1191,3 +1191,131 @@ section { padding: 0 clamp(20px, 5vw, 64px); }
   border-radius: 8px;
   font-size: 1rem;
 }
+
+/* Texto que aparece en la tarjeta cuando el producto fue agregado al carrito */
+.card-added {
+  color: var(--color-accent);
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+/* Toaster no intrusivo */
+#toastContainer {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 220;
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 220px;
+  max-width: 420px;
+  background: var(--color-whatsapp);
+  color: #fff;
+  padding: 12px 14px;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+  transform: translateY(12px) scale(0.98);
+  opacity: 0;
+  transition: transform 0.28s var(--ease), opacity 0.28s var(--ease);
+  font-weight: 700;
+}
+
+.toast--visible { transform: translateY(0) scale(1); opacity: 1; }
+
+.toast .toast-icon {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,0.12);
+  border-radius: 10px;
+  flex: 0 0 40px;
+}
+
+.toast .toast-icon i { color: #fff; font-size: 1.15rem; }
+
+.toast .toast-body { flex: 1; color: #fff; }
+.toast .toast-close { background: transparent; border: none; color: rgba(255,255,255,0.9); font-size: 1.1rem; cursor: pointer; }
+
+/* ---------- SECCIÓN: NUESTROS SERVICIOS ---------- */
+.servicios {
+  background: linear-gradient(180deg, rgba(0,0,0,0.28), rgba(5,6,8,0.94));
+  padding-top: clamp(48px, 6vw, 64px);
+  padding-bottom: clamp(48px, 6vw, 64px);
+  border-top: 1px solid var(--color-line);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.servicios-grid {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  align-items: stretch;
+}
+
+.servicios-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  min-height: 520px;
+}
+
+.servicios-panel {
+  background: linear-gradient(180deg, rgba(10,10,10,0.7), rgba(10,10,10,0.95));
+  padding: clamp(40px, 6vw, 64px);
+  color: var(--color-ink);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  border-left: 1px solid rgba(255,255,255,0.03);
+}
+
+.servicios-heading h2 { margin-top: 6px; }
+.servicios-heading .accent-red { color: var(--color-accent); display: inline-block; text-transform: uppercase; }
+.servicios-heading p { color: var(--color-ink-soft); max-width: 46ch; margin-top: 8px; }
+
+.servicios-list {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 24px;
+  padding-left: 0;
+}
+
+.servicios-list li {
+  position: relative;
+  padding-left: 34px;
+  color: var(--color-ink-soft);
+  font-weight: 600;
+}
+
+.servicios-list li::before {
+  content: '\2713';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--color-accent);
+  font-weight: 900;
+}
+
+.servicios-cta { width: max-content; margin-top: 6px; }
+
+@media (max-width: 900px) {
+  .servicios-grid { grid-template-columns: 1fr; }
+  .servicios-media img { min-height: 260px; }
+  .servicios-panel { padding: 28px; }
+}
