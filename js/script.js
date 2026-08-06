@@ -679,10 +679,22 @@ function renderizarCarrito() {
   cartWhatsappEl.href = construirEnlaceWhatsappCarrito();
 }
 
+function obtenerUrlBase() {
+  if (CONFIG.urlBase) return CONFIG.urlBase;
+
+  const { origin, pathname } = window.location;
+  const segmentos = pathname.split('/').filter(Boolean);
+
+  if (segmentos.length === 0) {
+    return `${origin}/`;
+  }
+
+  return `${origin}/${segmentos[0]}/`;
+}
+
 function obtenerUrlImagen(path) {
   try {
-    if (CONFIG.urlBase) return new URL(path, CONFIG.urlBase).href;
-    return new URL(path, window.location.origin + '/').href;
+    return new URL(path, obtenerUrlBase()).href;
   } catch (e) {
     return path;
   }
