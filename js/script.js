@@ -679,12 +679,25 @@ function renderizarCarrito() {
   cartWhatsappEl.href = construirEnlaceWhatsappCarrito();
 }
 
+function obtenerUrlImagen(path) {
+  try {
+    if (CONFIG.urlBase) return new URL(path, CONFIG.urlBase).href;
+    return new URL(path, window.location.origin + '/').href;
+  } catch (e) {
+    return path;
+  }
+}
+
 function construirEnlaceWhatsappCarrito() {
   const items = Array.from(carrito.values());
   let mensaje = "Hola, quisiera cotizar estos productos:\n\n";
 
   items.forEach((producto, indice) => {
     mensaje += `${indice + 1}. ${producto.nombre}\n`;
+    if (producto.imagenes && producto.imagenes.length) {
+      mensaje += `${obtenerUrlImagen(producto.imagenes[0])}\n`;
+    }
+    mensaje += `\n`;
   });
 
   return `https://wa.me/${CONFIG.whatsappNumero}?text=${encodeURIComponent(mensaje)}`;
@@ -740,9 +753,8 @@ function formatearPrecio(valor) {
 
 function construirEnlaceWhatsapp(producto) {
   let mensaje = `Hola, quisiera consultar disponibilidad de: ${producto.nombre}`;
-  if (CONFIG.urlBase) {
-    const urlImagen = new URL(producto.imagenes[0], CONFIG.urlBase).href;
-    mensaje += `\n${urlImagen}`;
+  if (producto.imagenes && producto.imagenes.length) {
+    mensaje += `\n${obtenerUrlImagen(producto.imagenes[0])}`;
   }
   return `https://wa.me/${CONFIG.whatsappNumero}?text=${encodeURIComponent(mensaje)}`;
 }

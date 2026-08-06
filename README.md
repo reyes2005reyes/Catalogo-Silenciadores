@@ -44,3 +44,29 @@ Todo vive en el arreglo `productos` al inicio de `js/script.js`. El campo `categ
 
 Este catálogo usa un tema oscuro industrial (fondo grafito, acento naranja/rojo tipo escape) para diferenciarse del catálogo de accesorios anterior (que era claro y cálido). Si prefieres el mismo estilo del otro proyecto, dime y ajusto la paleta.
 
+## Despliegue automático con GitHub Actions
+
+He incluido un workflow (`.github/workflows/pages.yml`) que despliega automáticamente el contenido del repositorio a GitHub Pages cada vez que hagas `push` a la rama `main`.
+
+Pasos rápidos:
+
+1. Crea el repositorio y haz `push` a `main`.
+2. El workflow subirá el contenido y GitHub Pages servirá el sitio.
+3. La URL típica será `https://<tu-usuario>.github.io/<tu-repo>/`.
+
+Nota sobre URLs de imágenes en mensajes de WhatsApp:
+
+- Si quieres que las URLs que se envían por WhatsApp apunten al dominio público, configura `CONFIG.urlBase` en `js/script.js` con la URL completa del sitio, por ejemplo:
+
+```js
+const CONFIG = {
+  whatsappNumero: "573012290989",
+  moneda: "COP",
+  urlBase: "https://tu-usuario.github.io/tu-repo/"
+};
+```
+
+- Si `CONFIG.urlBase` queda vacío, el sitio usará `window.location.origin`, lo cual funciona cuando accedes desde el dominio publicado o desde `http://localhost:8000` durante pruebas.
+
+Si quieres, cuando subas el repo puedo actualizar `CONFIG.urlBase` por ti (dime tu usuario y nombre del repo) y confirmar que las URLs en los mensajes WhatsApp sean absolutas y accesibles.
+
