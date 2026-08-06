@@ -683,13 +683,13 @@ function obtenerUrlBase() {
   if (CONFIG.urlBase) return CONFIG.urlBase;
 
   const { origin, pathname } = window.location;
-  const segmentos = pathname.split('/').filter(Boolean);
+  let base = pathname;
 
-  if (segmentos.length === 0) {
-    return `${origin}/`;
+  if (!base.endsWith('/')) {
+    base = base.slice(0, base.lastIndexOf('/') + 1);
   }
 
-  return `${origin}/${segmentos[0]}/`;
+  return `${origin}${base}`;
 }
 
 function obtenerUrlImagen(path) {
