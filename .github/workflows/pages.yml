@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages (gh-pages)
+name: GitHub Pages publish check
 
 on:
   push:
@@ -6,21 +6,14 @@ on:
       - main
 
 jobs:
-  deploy:
+  publish-check:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          publish_branch: main
-          # optional: keep_files: true
+      - name: Confirm GitHub Pages source
+        run: |
+          echo "GitHub Pages is configured to publish directly from the main branch."
+          echo "No gh-pages branch deployment is required for this repository."
